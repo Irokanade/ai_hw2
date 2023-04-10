@@ -76,13 +76,6 @@ fin = open("input.txt", "r")
 input_string = fin.read()
 germs = [int(x) for x in input_string.split(" ")]
 
-# print(germs)
-# for i in range(3):
-#     temp = germs[:]
-#     eliminate_germ(temp, i)
-#     print(temp)
-
-# eliminate_germ(germs, 2)
 print(germs)
 
 
@@ -100,5 +93,3 @@ with open("output.txt", "w") as fout:
 
 fin.close()
 fout.close()
-
-# print(germs)
